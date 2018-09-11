@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Currency Converter" tests="2" skipped="0" failures="1" errors="0" timestamp="2018-09-11T22:37:35" hostname="Rendys-MBP" time="21.365">
+  <properties/>
+  <testcase name="Error displayed if no amount entered when converting FX rates" classname="Currency Converter" time="11.179">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;... you want to convert[]&gt; but was:&lt;... you want to convert[.]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;... you want to convert[]&gt; but was:&lt;... you want to convert[.]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepdefs.CurrencyConverterStepDefinitions.verifyErrorMessage(CurrencyConverterStepDefinitions.java:52)
+	at ✽.I see a currency conversion error stating &quot;Please enter the amount you want to convert&quot;(src/test/resources/features/CurrencyConverter.feature:12)
+</failure>
+  </testcase>
+  <testcase name="User can convert from Currency A to Currency B and vice versa" classname="Currency Converter" time="10.183"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db) on port 8039
+Only local connections are allowed.
+Starting ChromeDriver 2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db) on port 2895
+Only local connections are allowed.
+]]></system-err>
+</testsuite>
