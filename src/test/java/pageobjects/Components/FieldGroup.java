@@ -16,7 +16,7 @@ public class FieldGroup {
 
     private WebDriver driver;
 
-    By infoIcon = By.cssSelector(".icon");
+    By infoIcon = By.cssSelector("button.icon-target");
 
     By dropdown = By.cssSelector(".control.select-control");
 
