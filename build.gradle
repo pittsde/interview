@@ -12,8 +12,8 @@ repositories {
 }
 
 dependencies {
-    testCompile 'io.cucumber:cucumber-java:2.3.1'
-    testCompile 'io.cucumber:cucumber-junit:2.3.1'
+    testCompile 'io.cucumber:cucumber-java:2.4.0'
+    testCompile 'io.cucumber:cucumber-junit:2.4.0'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
 }
 
@@ -36,9 +36,8 @@ task cucumber(type: Test) {
             main = "cucumber.api.cli.Main"
             testClassesDirs = sourceSets.autoTest.output.classesDirs
             classpath = sourceSets.autoTest.compileClasspath
-            //classpath = configurations.compileClasspath = sourceSets.main.output + sourceSets.test.output
 
-            args = ['--format', '{"pretty", "html:output/cucumber-html-report"}']
+            args = ['--plugin', '{"pretty", "html:output/cucumber-html-report"}']
             //args = ['--plugin', 'pretty', '--glue', 'stepDefinitions', 'src/test/resources/features/']
         }
     }

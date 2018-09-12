@@ -15,12 +15,6 @@ public class CurrencyConverterStepDefinitions {
 
     private WebDriver driver = WebDriverUtils.getDriver();
 
-    @Given("^I have navigated to the currency converter page$")
-    public void navigateCurrencyConverter() {
-        BasePage basePage = new BasePage(driver);
-        basePage.getMenuSection().clickSectionLink("FX, travel & migrant", "Currency converter");
-    }
-
     @When("^I select different source and destination currencies$")
     public void selectDifferentCurrencies() {
         CurrencyConverterPage converterPage = PageFactory.initElements(driver, CurrencyConverterPage.class);

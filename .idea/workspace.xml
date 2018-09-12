@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad2972c1-a49d-4522-96ba-1047b4206d72" name="Default Changelist" comment="" />
+    <list default="true" id="ad2972c1-a49d-4522-96ba-1047b4206d72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Utilities/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Utilities/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/stepdefs/CurrencyConverterStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/stepdefs/CurrencyConverterStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/interview-automation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/interview-automation-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/cucumber/classes/Currency#20Converter.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/cucumber/classes/Currency#20Converter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/cucumber/classes/Utilities.TestRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/cucumber/classes/Utilities.TestRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/cucumber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/cucumber/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/cucumber/packages/Utilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/cucumber/packages/Utilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/cucumber/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/cucumber/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/CurrencyConverter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/CurrencyConverter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/KiwiSaverCalculator.featurex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/cucumber/TEST-Currency#20Converter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/cucumber/TEST-Currency#20Converter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/cucumber/TEST-Utilities.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/cucumber/TEST-Utilities.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/cucumber/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/cucumber/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/cucumber/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/cucumber/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/cucumber/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/cucumber/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CurrencyConverterStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CurrencyConverterStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/KiwisaverCalcStepDefinitons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/KiwisaverCalcStepDefinitons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CurrencyConverter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CurrencyConverter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/KiwiSaverCalculator.featurex" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/KiwiSaverCalculator.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -20,8 +54,8 @@
     <session id="-1884482354">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -29,57 +63,62 @@
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="WebDriverFixture" value="1" />
           <entry key="cucumber-html-report" value="1" />
-          <entry key="feature" value="5" />
+          <entry key="feature" value="6" />
           <entry key="featureX" value="1" />
-          <entry key="gradle" value="3" />
+          <entry key="gitignore" value="1" />
+          <entry key="gradle" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="36" />
+          <entry key="java" value="40" />
           <entry key="json" value="1" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="5" />
-          <entry key="Groovy" value="3" />
+          <entry key="Cucumber" value="6" />
+          <entry key="Groovy" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="40" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="WebDriverFixture" value="44" />
           <entry key="dummy" value="5" />
-          <entry key="feature" value="2442" />
-          <entry key="gradle" value="523" />
-          <entry key="java" value="9439" />
+          <entry key="feature" value="2495" />
+          <entry key="gitignore" value="33" />
+          <entry key="gradle" value="533" />
+          <entry key="java" value="9458" />
+          <entry key="md" value="4119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="2442" />
-          <entry key="Groovy" value="523" />
-          <entry key="JAVA" value="9439" />
-          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="Cucumber" value="2495" />
+          <entry key="Groovy" value="533" />
+          <entry key="JAVA" value="9458" />
+          <entry key="Markdown" value="3658" />
+          <entry key="PLAIN_TEXT" value="543" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,29 +127,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/WebDriverFixture.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/WebDriverUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-409">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -118,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+            <state relative-caret-position="-78">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -127,10 +147,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/CurrencyConverter.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="22" selection-start-line="22" selection-start-column="1" selection-end-line="24" selection-end-column="54" />
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/CurrencyConverterStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/KiwiSaverCalculator.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/KiwisaverCalcStepDefinitons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="87" column="55" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/KiwisaverCalculatorPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2558#2559#0" expanded="true" />
+                <element signature="e#2609#2610#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Components/FieldGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-245">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -141,6 +225,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -339,9 +426,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4609440116000" />
+        <entry key="$PROJECT_DIR$" value="4609450830000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3971151223" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3771762665" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="580448981" />
       </map>
     </option>
@@ -468,7 +555,6 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/CurrencyConverterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/WebDriverFixture.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefs/CurrencyConverterStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/KiwisaverRiskProfilerAndCalcPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/Components/MenuSection.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/KiwisaverCalculator.feature" />
@@ -477,15 +563,18 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/pages/KiwisaverRiskProfilerAndCalcPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/Components/FieldGroup.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/pages/KiwisaverCalculatorPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefs/KiwisaverCalcStepDefinitons.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/KiwiSaverCalculator.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/WebDriverFixture.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/WebDriverUtils.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/CurrencyConverterStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/resources/features/CurrencyConverter.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/KiwisaverCalcStepDefinitons.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/KiwiSaverCalculator.feature" />
       </list>
     </option>
   </component>
@@ -494,13 +583,12 @@
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -511,6 +599,17 @@
             <path>
               <item name="interview-automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview-automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-html-report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -518,21 +617,6 @@
               <item name="interview-automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview-automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview-automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview-automation" type="b2602c69:ProjectViewProjectNode" />
@@ -554,10 +638,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536705510571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536716309769" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -676,10 +762,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: CurrencyConverter" />
         <item itemvalue="JUnit.TestRunner (2)" />
         <item itemvalue="JUnit.TestRunner (1)" />
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber java.Feature: CurrencyConverter" />
         <item itemvalue="JUnit.FunctionalTest" />
       </list>
     </recent_temporary>
@@ -698,12 +784,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TryDec - 2018.09.12 at 03h 58m 01s.xml">
-      <configuration name="TryDec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TryDec - 2018.09.12 at 04h 00m 56s.xml">
-      <configuration name="TryDec" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TryDec - 2018.09.12 at 04h 02m 29s.xml">
       <configuration name="TryDec" configurationId="JUnit" />
     </history-entry>
@@ -728,12 +808,17 @@
     <history-entry file="TryDec - 2018.09.12 at 05h 45m 21s.xml">
       <configuration name="TryDec" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Feature__CurrencyConverter - 2018.09.12 at 08h 12m 50s.xml">
+      <configuration name="Feature: CurrencyConverter" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TryDec - 2018.09.12 at 08h 14m 55s.xml">
+      <configuration name="TryDec" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2819063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28594506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -905,25 +990,10 @@
     <entry file="file://$PROJECT_DIR$/out/test/resources/features/CurrencyConverter.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/FunctionalTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/WebDriverFixture.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/CurrencyConverterStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Components/MenuSection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,37 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/KiwisaverCalcStepDefinitons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Components/FieldGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/KiwisaverCalculatorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/CurrencyConverterPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -999,50 +1038,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/TestRunner.java" />
+    <entry file="file://$PROJECT_DIR$/output/cucumber-html-report/index.html" />
+    <entry file="file://$PROJECT_DIR$/output/cucumber.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/KiwisaverRiskProfilerAndCalcPage.java" />
+    <entry file="file://$PROJECT_DIR$/html:output/cucumber-html-report" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/WebDriverFixture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/cucumber-html-report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/KiwiSaverCalculator.featurex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/KiwisaverRiskProfilerAndCalcPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html:output/cucumber-html-report">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/WebDriverUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="285">
           <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1050,38 +1064,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/WebDriverFixture.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/CurrencyConverterStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/CurrencyConverter.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="22" selection-start-line="22" selection-start-column="1" selection-end-line="24" selection-end-column="54" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/KiwiSaverCalculator.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+        <state relative-caret-position="161">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/KiwisaverCalcStepDefinitons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        <state relative-caret-position="152">
+          <caret line="87" column="55" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/pages/KiwisaverCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2609#2610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Components/FieldGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

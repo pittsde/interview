@@ -27,7 +27,7 @@ public class KiwisaverCalcStepDefinitons {
     private String riskProfileLabel = "Risk profile";
     private String savingsGoalLabel = "Savings goal at retirement";
 
-    @Given("I have entered the kiwisaver calculator inputs ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*)$")
+    @Given("I have entered the KiwiSaver calculator inputs ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*) ([^\"]*)$")
     public void enterCalcInputs(String age, String status, String salary, String contribPercent, String pirRate, String profile, String balance, String contribAmount, String contribFreq, String savingsGoal) {
         KiwisaverCalculatorPage calcPage = PageFactory.initElements(driver, KiwisaverCalculatorPage.class);
 
@@ -103,7 +103,7 @@ public class KiwisaverCalcStepDefinitons {
         calcPage.clickCalculate();
     }
 
-    @Then("^I see kiwisaver calculator results are displayed$")
+    @Then("^I see KiwiSaver calculator results are displayed$")
     public void verifyResultsDisplayed() {
         KiwisaverCalculatorPage calcPage = PageFactory.initElements(driver, KiwisaverCalculatorPage.class);
         assertTrue("Results set is displayed", calcPage.isResultsSetDisplayed());
