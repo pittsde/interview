@@ -39,10 +39,10 @@ public class FieldGroup {
 
         try {
             //todo check if info is always present on all elements on different pages
-            WebElement elem = driver.findElement(infoIcon);
+            WebElement elem = fieldElement.findElement(infoIcon);
             wait.until(ExpectedConditions.elementToBeClickable(elem));
-        } catch(Exception e) {
-            throw new TimeoutException("Unable to load Kiwisaver Field group page",e);
+        } catch (Exception e) {
+            throw new TimeoutException("Unable to load Kiwisaver Field group page", e);
         }
 
     }
@@ -52,6 +52,7 @@ public class FieldGroup {
     }
 
     public void clickInfoIcon() {
+        WebDriverUtils.waitForElementToBeClickable(fieldElement.findElement(infoIcon));
         fieldElement.findElement(infoIcon).click();
     }
 
@@ -76,8 +77,6 @@ public class FieldGroup {
         WebElement elem = fieldElement.findElement(radioField);
         WebDriverUtils.selectRadioEntryContainingText(elem, value);
     }
-
-
 
 
 }

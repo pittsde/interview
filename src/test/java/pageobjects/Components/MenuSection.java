@@ -22,7 +22,7 @@ public class MenuSection {
         //todo add comments
         WebElement titleElement = driver.findElement(By.xpath("//a[contains(text(),'" + sectionTitle + "')]"));
         WebDriverUtils.hoverOverElement(titleElement);
-        String fullXpath = "//a[contains(text(),'" + sectionTitle + "')]/..//a[contains(text(),'"+ linkTitle + "')]";
+        String fullXpath = "//a[contains(text(),'" + sectionTitle + "')]/..//a[contains(text(),'" + linkTitle + "')]";
         menubar.findElement(By.xpath(fullXpath)).click();
     }
 }

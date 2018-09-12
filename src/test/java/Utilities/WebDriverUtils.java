@@ -55,7 +55,7 @@ public class WebDriverUtils {
     //to be used on a radio within Kiwisaver calculator and screens that use similar components
     public static void selectRadioEntryContainingText(WebElement element, String val) {
         waitForElementToBeClickable(element);
-        for (WebElement elem :element.findElements(By.cssSelector(".input-label"))){
+        for (WebElement elem : element.findElements(By.cssSelector(".input-label"))) {
             if (elem.getText().equals(val)) {
                 elem.click();
             }
@@ -70,8 +70,8 @@ public class WebDriverUtils {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         try {
             wait.until(ExpectedConditions.elementToBeClickable(elem));
-        } catch(Exception e) {
-            throw new TimeoutException("Element did not become clickable",e);
+        } catch (Exception e) {
+            throw new TimeoutException("Element did not become clickable", e);
         }
     }
 
@@ -81,8 +81,8 @@ public class WebDriverUtils {
         try {
             WebElement elem = driver.findElement(by);
             wait.until(ExpectedConditions.elementToBeClickable(elem));
-        } catch(Exception e) {
-            throw new TimeoutException("Unable to load Westpac page",e);
+        } catch (Exception e) {
+            throw new TimeoutException("Unable to load Westpac page", e);
         }
     }
 }

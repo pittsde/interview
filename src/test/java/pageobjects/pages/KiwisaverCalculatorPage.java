@@ -42,26 +42,26 @@ public class KiwisaverCalculatorPage extends BasePage {
             //we need to wait for the iframe to load before we can switch to it
             WebElement frame = driver.findElement(By.cssSelector(frameCssLocator));
             wait.until(ExpectedConditions.elementToBeClickable(frame));
-        } catch(Exception e) {
-            throw new TimeoutException("Unable to load Kiwisaver calc frame",e);
+        } catch (Exception e) {
+            throw new TimeoutException("Unable to load Kiwisaver calc frame", e);
         }
 
         try {
             driver.switchTo().frame(driver.findElement(By.cssSelector(frameCssLocator)));
             WebElement elem = driver.findElement(by);
             wait.until(ExpectedConditions.elementToBeClickable(elem));
-        } catch(Exception e) {
-            throw new TimeoutException("Unable to load Kiwisaver CalculatorPage page",e);
+        } catch (Exception e) {
+            throw new TimeoutException("Unable to load Kiwisaver CalculatorPage page", e);
         }
     }
 
 
     public FieldGroup getAgeFieldGroup() {
-         return new FieldGroup(driver, ageFieldGroup);
+        return new FieldGroup(driver, ageFieldGroup);
     }
 
     public FieldGroup getFieldGroupWithLabel(String label) {
-        String locator = genericCssLocator.replace("placeholder",label);
+        String locator = genericCssLocator.replace("placeholder", label);
         WebElement group = driver.findElement(By.cssSelector(locator));
         return new FieldGroup(driver, group);
     }

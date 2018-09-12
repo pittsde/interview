@@ -37,12 +37,12 @@ public class KiwisaverCalcStepDefinitons {
         FieldGroup empStatusSection = calcPage.getFieldGroupWithLabel(employmentStatusLabel);
         setDropdownValueOnFieldGroup(empStatusSection, status);
 
-        if(!salary.equals("")) {
+        if (!salary.equals("")) {
             FieldGroup salarySection = calcPage.getFieldGroupWithLabel(salaryLabel);
             setTextValueOnFieldGroup(salarySection, salary);
         }
 
-        if(!contribPercent.equals("")) {
+        if (!contribPercent.equals("")) {
             FieldGroup contribPercentSection = calcPage.getFieldGroupWithLabel(contribPercentLabel);
             setRadioValueOnFieldGroup(contribPercentSection, contribPercent);
         }
@@ -51,7 +51,7 @@ public class KiwisaverCalcStepDefinitons {
         setDropdownValueOnFieldGroup(pirSection, pirRate);
 
         FieldGroup profileSection = calcPage.getFieldGroupWithLabel(riskProfileLabel);
-        setRadioValueOnFieldGroup(profileSection,profile);
+        setRadioValueOnFieldGroup(profileSection, profile);
 
         FieldGroup balanceSection = calcPage.getFieldGroupWithLabel(currentBalanceLabel);
         setTextValueOnFieldGroup(balanceSection, balance);
@@ -65,19 +65,19 @@ public class KiwisaverCalcStepDefinitons {
     }
 
     public void setTextValueOnFieldGroup(FieldGroup fieldGroup, String value) {
-        if(!value.equals("")) {
+        if (!value.equals("")) {
             fieldGroup.setTextFieldValue(value);
         }
     }
 
     public void setRadioValueOnFieldGroup(FieldGroup fieldGroup, String value) {
-        if(!value.equals("")) {
+        if (!value.equals("")) {
             fieldGroup.setRadioValue(value);
         }
     }
 
     public void setDropdownValueOnFieldGroup(FieldGroup fieldGroup, String value) {
-        if(!value.equals("")) {
+        if (!value.equals("")) {
             fieldGroup.setDropdownValue(value);
         }
     }

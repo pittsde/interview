@@ -33,7 +33,7 @@ public class CurrencyConverterPage extends BasePage {
 
     private By byPageLocator = By.name("ConvertFrom");
 
-    public CurrencyConverterPage(WebDriver driver)  {
+    public CurrencyConverterPage(WebDriver driver) {
         super(driver);
         waitForPageToLoad(byPageLocator);
     }
@@ -46,16 +46,16 @@ public class CurrencyConverterPage extends BasePage {
             //we need to wait for the iframe to load before we can switch to it
             WebElement frame = driver.findElement(By.id("westpac-iframe"));
             wait.until(ExpectedConditions.elementToBeClickable(frame));
-        } catch(Exception e) {
-            throw new TimeoutException("Unable to load Westpac frame",e);
+        } catch (Exception e) {
+            throw new TimeoutException("Unable to load Westpac frame", e);
         }
 
         try {
             driver.switchTo().frame("westpac-iframe");
             WebElement elem = driver.findElement(by);
             wait.until(ExpectedConditions.elementToBeClickable(elem));
-        } catch(Exception e) {
-            throw new TimeoutException("Unable to load Westpac page",e);
+        } catch (Exception e) {
+            throw new TimeoutException("Unable to load FX converter page", e);
         }
     }
 

@@ -28,13 +28,14 @@ public class CurrencyConverterStepDefinitions {
         converterPage.selectSourceCurrency(source.trim());
         converterPage.selectDestinationCurrency(destination.trim());
     }
+
     @When("^I enter \"([^\"]*)\" as the amount$")
     public void enterAmount(String amount) {
         CurrencyConverterPage converterPage = PageFactory.initElements(driver, CurrencyConverterPage.class);
         converterPage.enterAmount(amount);
     }
 
-    @When ("^I click the convert button$")
+    @When("^I click the convert button$")
     public void clickConvert() {
         CurrencyConverterPage converterPage = PageFactory.initElements(driver, CurrencyConverterPage.class);
         converterPage.clickConvert();

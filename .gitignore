@@ -1,3 +1,7 @@
+./*
 /output
-/.gradle
-.idea/*
+/.gradle/*
+/.idea/*
+/build/*
+./*
+/out
