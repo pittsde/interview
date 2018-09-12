@@ -1,33 +1,33 @@
-# Interview automation
+# Interview automation #
 
 This code covers automation of the KiwiSaver calculator and FX converter specified in the Automation Test docs
 
-## Getting Started
+## Getting Started ##
 
 These instructions will get you a copy of the project up and running on your local machine 
 
-### Prerequisites
+### Prerequisites ###
 
 What things you need to install the software and how to install them
 
 
-####Java 1.8
+#### Java 1.8 ####
 
 1. [Download java 8 sdk](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. [Set JAVA_HOME](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/)
 3. run ```javac -version``` in a command prompt window
 4. Ensure correct version returned
 
-####Gradle
+#### Gradle ####
 1. [Follow installation instructions here](https://gradle.org/install/)
 2. run ```gradle -v``` in a command prompt window
 3. Ensure correct version returned
 
-####Git
+#### Git ####
 1. [Install GIT](https://git-scm.com/downloads)
 2. clone the repo https://github.com/pittsde/interview.git
 
-####Chromedriver
+#### Chromedriver ####
 1. [Download chromedriver](http://chromedriver.chromium.org/downloads)
 2. [Add chromedriver location to system environment variable](http://chromedriver.chromium.org/getting-started)
 
@@ -43,7 +43,7 @@ What things you need to install the software and how to install them
 
 #### FX questions ####
 
-#####Why did you choose this tool/framework? Explain if there are any other possible alternative with pros/cons of them.#####
+##### Why did you choose this tool/framework? Explain if there are any other possible alternative with pros/cons of them. #####
 
 I used cucumber, java, webdriver gradle tools.
 
@@ -56,7 +56,7 @@ Chrome was used as it is the most common browser
 Gradle was used as the build tool which I was most familiar with and I think the build script is easy to read.
 
 
-#####Do you think the priorities of the user story are appropriate in relation the overall need of currency converter?  #####
+##### Do you think the priorities of the user story are appropriate in relation the overall need of currency converter? #####
 
 No - I don't think the scenarios cover certain areas.
 Verifying the actual conversion is correct when the conversion is performed. We don't check the actual rates here 
@@ -69,7 +69,7 @@ Manual test could be added to verify when the back end system that returns the r
 
 We also do not check which currencies should be available
 
-##### What are the possible points at which your tests can fail and how can you handle them?  #####
+##### What are the possible points at which your tests can fail and how can you handle them? #####
 
 1:
 I have written navigation steps that click links based on the link text. 
